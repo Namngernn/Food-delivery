@@ -1,13 +1,15 @@
 .navbar{
-    padding: 20px 0px;
+    padding: 8px 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.navbar.logo{
-    width: 150px;
+.navbar .logo{
+    width: 100px;
 }
-
+.navbar .basket-icon{
+    width: 40px;
+}
 .navbar-menu{
     display: flex;
     list-style: none;
@@ -35,4 +37,27 @@
 
 .navbar button:hover{
     background-color: antiquewhite;
+}
+
+.navbar .active{
+    padding-bottom: 2px;
+    border-bottom: 2px solid tomato;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar-search-icon{
+    position: relative;
+}
+
+.navbar-search-icon .dot{
+    position: absolute;
+    min-width: 10px;
+    min-height: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    top: -8px;
+    right: -8px;
 }
