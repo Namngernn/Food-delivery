@@ -1,9 +1,8 @@
 .food-item{
     width: 100%;
     row-gap: 100px;
-    margin: auto;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px crimson;
+    box-shadow: 0px 0px 10px rgb(205, 200, 201);
     transition: 0.3s;
     animation: fadeIn 1s;
     background-color: rgb(244, 239, 232);
@@ -55,13 +54,13 @@
 }
 
 .food-item-img-container .add{
-    width: 30px;
+    width: 40px;
     position: absolute;
     bottom: 15px;
     right: 15px;
     cursor: pointer;
     border-radius: 50%;
-    background-color: rgb(211, 211, 210);
+    background-color: rgb(214, 214, 204, 0.5);
 }
 
 .food-item-counter{
@@ -73,11 +72,11 @@
     gap: 10px;
     padding: 6px;
     border-radius: 50px;
-    width: 20px;
+    width: 100px;
     cursor: pointer;
-    background-color: antiquewhite;
+    background-color: rgb(213, 212, 212);
 }
 
-.img-add-icon{
+.food-item-counter img{
     width: 30px;
 }
