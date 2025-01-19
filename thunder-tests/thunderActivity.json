@@ -1,0 +1,14 @@
+[
+    {
+        "_id": "5b69f439-5abd-4b10-8c7f-a88a07e991fa",
+        "colId": "history",
+        "containerId": "",
+        "name": "http://localhost:4000",
+        "url": "http://localhost:4000",
+        "method": "GET",
+        "sortNum": 0,
+        "created": "2025-01-15T12:22:25.741Z",
+        "modified": "2025-01-15T12:22:25.741Z",
+        "headers": []
+    }
+]
